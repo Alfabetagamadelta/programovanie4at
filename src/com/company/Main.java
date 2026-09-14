@@ -10,13 +10,13 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while (x) {
-            System.out.println("Zadaj cislo a:");
+            System.out.println("Zadaj prve cislo");
             int a = scanner.nextInt();
 
-            System.out.println("Zadaj cislo b:");
+            System.out.println("Zadaj druhe cislo");
             int b = scanner.nextInt();
 
-            System.out.println("Chces cisla scitat (+), odcitat (-), nasobit (*) alebo delit (/)?");
+            System.out.println("Vyber operaciu: + , - , * , / ");
             String operacia = scanner.next();
 
             vypocet(a, b, operacia);
